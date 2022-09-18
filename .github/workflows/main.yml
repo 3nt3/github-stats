@@ -49,7 +49,7 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         EXCLUDED: "3nt3/generate_toc_from_latex,3nt3/blog.3nt3.xyz"
-        EXCLUDED_LANGS: "html"
+        EXCLUDED_LANGS: "html,nix"
         EXCLUDE_FORKED_REPOS: false
 
     # Commit all changed files to the repository
