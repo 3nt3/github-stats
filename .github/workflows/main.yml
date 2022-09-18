@@ -48,7 +48,7 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        EXCLUDED: ${{ secrets.EXCLUDED }}
+        EXCLUDED: "3nt3/generate_toc_from_latex/settings"
         EXCLUDED_LANGS: ${{ secrets.EXCLUDED_LANGS }}
         EXCLUDE_FORKED_REPOS: true
 
