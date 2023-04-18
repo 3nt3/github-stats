@@ -48,7 +48,7 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        EXCLUDED: "3nt3/generate_toc_from_latex,3nt3/blog.3nt3.xyz,3nt3/FreeCAD_assembly3,3nt3/yt-dlp,3nt3/Ehre-nehmen-rz,3nt3/synapse,3nt3/nixpkgs"
+        EXCLUDED: "3nt3/generate_toc_from_latex,3nt3/blog.3nt3.xyz,3nt3/FreeCAD_assembly3,3nt3/yt-dlp,3nt3/Ehren-nehmen-rz,3nt3/synapse,3nt3/nixpkgs"
         EXCLUDED_LANGS: "nix"
         EXCLUDE_FORKED_REPOS: true
 
