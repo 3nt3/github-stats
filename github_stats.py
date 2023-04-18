@@ -348,6 +348,8 @@ Languages:
                 self._forks += repo.get("forkCount", 0)
 
                 for lang in repo.get("languages", {}).get("edges", []):
+                    if name.lower() == "python":
+                        print(name, repo['nameWithOwner'], lang.get("size", 0))
                     name = lang.get("node", {}).get("name", "Other")
                     languages = await self.languages
                     if name.lower() in exclude_langs_lower:
